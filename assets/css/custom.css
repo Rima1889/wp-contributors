@@ -1,0 +1,25 @@
+.wp-contributor-front-wrapper{
+	background-color: #80808059;
+	padding: 10px 30px;
+}
+.wp-contributor-front-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.wp-contributor-data{
+	padding-bottom: 20px;
+	width: 25%;
+}
+.wp-contributor-front-wrap a{
+	color: black;
+	text-decoration: none;
+}
+.wp-contributor-title h6{
+	font-weight: 900;
+}
+@media (max-width: 690px){
+	.wp-contributor-data{
+		padding-bottom: 20px;
+		width: 50%;
+	}
+}
